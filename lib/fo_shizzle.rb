@@ -14,9 +14,7 @@ class String
           word_array.push(current_letter)
         end
       end
-      p(word_array)
       fo_shizzled_array.push(word_array.join())
-      p(fo_shizzled_array)
     end
     fo_shizzled_sentence = fo_shizzled_array.join(" ")
     fo_shizzled_sentence
